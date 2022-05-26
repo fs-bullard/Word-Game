@@ -268,7 +268,7 @@ def play_hand(hand, word_list):
         else:
         # Otherwise (the word is not valid):
             # Reject invalid word (print a message)
-            print(f"\"{word}\" is not a valid word. Please choose another word.")                
+            print(f"\"{word}\" is not a valid word.")                
         # update the user's hand by removing the letters of their inputted word
         hand = update_hand(hand, word)
         n = calculate_handlen(hand)
